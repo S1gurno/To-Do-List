@@ -12,7 +12,7 @@ const taskList = document.querySelector('#task-list');
 addBtn.addEventListener("click", (event) => {
     event.preventDefault();
 
-    if (taskInput.textContent === ""){
+    if (taskInput.value === ""){
         return;
     }
 
